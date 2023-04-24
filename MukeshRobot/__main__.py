@@ -97,7 +97,7 @@ buttons = [
         InlineKeyboardButton(text="📚 ʜᴇʟᴘ ᴀɴᴅ ᴄᴏᴍᴍᴀɴᴅs", callback_data="help_back"),
     ],
     [
-        InlineKeyboardButton(text="🏡 ᴀʙᴏᴜᴛ 🏡 ", callback_data="mukesh_"),
+        InlineKeyboardButton(text="🏡 ᴀʙᴏᴜᴛ 🏡 ", callback_data="lover_jerry"),
         InlineKeyboardButton(text="🍹sᴜᴩᴩᴏʀᴛ 🍹", url=f"https://t.me/{SUPPORT_CHAT}"),
     ],
     [
@@ -112,7 +112,7 @@ HELP_STRINGS = f"""
 DONATE_STRING = f"""ʜᴇʏ ʙᴀʙʏ,
   ʜᴀᴩᴩʏ ᴛᴏ ʜᴇᴀʀ ᴛʜᴀᴛ ʏᴏᴜ ᴡᴀɴɴᴀ ᴅᴏɴᴀᴛᴇ.
 
-ʏᴏᴜ ᴄᴀɴ ᴅɪʀᴇᴄᴛʟʏ ᴄᴏɴᴛᴀᴄᴛ ᴍʏ ᴅᴇᴠᴇʟᴏᴘᴇʀ @itz\_Legend\_coder ғᴏʀ ᴅᴏɴᴀᴛɪɴɢ ᴏʀ ʏᴏᴜ ᴄᴀɴ ᴠɪsɪᴛ ᴍʏ sᴜᴩᴩᴏʀᴛ ᴄʜᴀᴛ @the\_support\_chat ᴀɴᴅ ᴀsᴋ ᴛʜᴇʀᴇ ᴀʙᴏᴜᴛ ᴅᴏɴᴀᴛɪᴏɴ."""
+ʏᴏᴜ ᴄᴀɴ ᴅɪʀᴇᴄᴛʟʏ ᴄᴏɴᴛᴀᴄᴛ ᴍʏ ᴅᴇᴠᴇʟᴏᴘᴇʀ @lover_jerry ғᴏʀ ᴅᴏɴᴀᴛɪɴɢ ᴏʀ ʏᴏᴜ ᴄᴀɴ ᴠɪsɪᴛ ᴍʏ sᴜᴩᴩᴏʀᴛ ᴄʜᴀᴛ @the\_support\_chat ᴀɴᴅ ᴀsᴋ ᴛʜᴇʀᴇ ᴀʙᴏᴜᴛ ᴅᴏɴᴀᴛɪᴏɴ."""
 
 IMPORTED = {}
 MIGRATEABLE = []
@@ -227,11 +227,11 @@ def start(update: Update, context: CallbackContext):
                 PM_START_TEX.format(usr.first_name), parse_mode=ParseMode.MARKDOWN
             )
             time.sleep(0.4)
-            lol.edit_text("❤")
+            lol.edit_text("❤️")
             time.sleep(0.5)
-            lol.edit_text("⚡")
+            lol.edit_text("💖")
             time.sleep(0.3)
-            lol.edit_text("ꜱᴛᴀʀᴛɪɴɢ... ")
+            lol.edit_text("💘")
             time.sleep(0.4)
             lol.delete()
             
@@ -398,19 +398,19 @@ def Mukesh_about_callback(update: Update, context: CallbackContext):
                 [
                     [
                         InlineKeyboardButton(
-                            text="🚩sᴜᴩᴩᴏʀᴛ🚩", callback_data="mukesh_support"
+                            text="❤️‍🔥sᴜᴩᴩᴏʀᴛ❤️‍🔥[S♡K]", callback_data="@maitri_chi_duniya"
                         ),
                         InlineKeyboardButton(
-                            text="✨ᴄᴏᴍᴍᴀɴᴅs✨", callback_data="help_back"
+                            text="✨ᴄᴏᴍᴍᴀɴᴅs✨[S♡K]", callback_data="help_back"
                         ),
                     ],
                     [
                         InlineKeyboardButton(
-                            text="👨‍💻ᴅᴇᴠᴇʟᴏᴩᴇʀ👨‍💻", url=f"tg://user?id={OWNER_ID}"
+                            text="💞ᴅᴇᴠᴇʟᴏᴩᴇʀ💞[S♡K]", url=f"tg://user?id={OWNER_ID}"
                         ),
                         InlineKeyboardButton(
-                            text="🥀sᴏᴜʀᴄᴇ🥀",
-                            url="https://github.com/noob-mukesh/MukeshRobot",
+                            text="🥀sᴏᴜʀᴄᴇ🥀[S♡K]",
+                            url="https://graph.org/file/49626af047c288c9a3743.jpg",
                         ),
                     ],
                     [
@@ -419,7 +419,7 @@ def Mukesh_about_callback(update: Update, context: CallbackContext):
                 ]
             ),
         )
-    elif query.data == "mukesh_support":
+    elif query.data == "@maitri_chi_duniya":
         query.message.edit_text(text="||*๏ ᴄʟɪᴄᴋ ᴏɴ ᴛʜᴇ ʙᴜᴛᴛᴏɴs ɢɪᴠᴇɴ ʙᴇʟᴏᴡ ᴛᴏ ɢᴇᴛ ʜᴇʟᴩ ᴀɴᴅ ᴍᴏʀᴇ ɪɴғᴏʀᴍᴀᴛɪᴏɴ ᴀʙᴏᴜᴛ ᴍᴇ.||*"
             f"\n\nɪғ ʏᴏᴜ ғᴏᴜɴᴅ ᴀɴʏ ʙᴜɢ ɪɴ {dispatcher.bot.first_name} ᴏʀ ɪғ ʏᴏᴜ ᴡᴀɴɴᴀ ɢɪᴠᴇ ғᴇᴇᴅʙᴀᴄᴋ ᴀʙᴏᴜᴛ ᴛʜᴇ {dispatcher.bot.first_name}, ᴩʟᴇᴀsᴇ ʀᴇᴩᴏʀᴛ ɪᴛ ᴀᴛ sᴜᴩᴩᴏʀᴛ ᴄʜᴀᴛ.",
             parse_mode=ParseMode.MARKDOWN,
@@ -427,18 +427,18 @@ def Mukesh_about_callback(update: Update, context: CallbackContext):
                 [
                     [
                         InlineKeyboardButton(
-                            text="🚩sᴜᴩᴩᴏʀᴛ🚩", url=f"https://t.me/{SUPPORT_CHAT}"
+                            text="❤️‍🔥sᴜᴩᴩᴏʀᴛ❤️‍🔥[S♡K]", url=f"https://t.me/{SUPPORT_CHAT}"
                         ),
                         InlineKeyboardButton(
-                            text="💗ᴜᴩᴅᴀᴛᴇs💓", url=f"https://t.me/mukeshbotzone"
+                            text="💗ᴜᴩᴅᴀᴛᴇs💓[S♡K]", url=f"https://t.me/mukeshbotzone"
                         ),
                     ],
                     [
                         InlineKeyboardButton(
-                            text="🥀ᴅᴇᴠᴇʟᴏᴩᴇʀ🥀", url=f"tg://user?id={OWNER_ID}"
+                            text="🥀ᴅᴇᴠᴇʟᴏᴩᴇʀ🥀[S♡K]", url=f"tg://user?id={OWNER_ID}"
                         ),
                         InlineKeyboardButton(
-                            text="✨ɢɪᴛʜᴜʙ✨", url="https://github.com/noob-mukesh"
+                            text="✨ɢɪᴛʜᴜʙ✨[S♡K]", url="https://graph.org/file/49626af047c288c9a3743.jpg"
                         ),
                     ],
                     [
@@ -900,7 +900,7 @@ def main():
                 caption=f"""
 ✨ㅤ{BOT_NAME} ɪs ᴀʟɪᴠᴇ ʙᴀʙʏ.
 ━━━━━━━━━━━━━
-**ᴍᴀᴅᴇ ᴡɪᴛʜ ❤️ ʙʏ **[ᴏᴡɴᴇʀ]("https://t.me/mr_sukkun")
+**ᴍᴀᴅᴇ ᴡɪᴛʜ ❤️ ʙʏ **[ᴏᴡɴᴇʀ]("https://t.me//lover_jerry")
 **ᴘʏᴛʜᴏɴ ᴠᴇʀsɪᴏɴ:** `{y()}`
 **ʟɪʙʀᴀʀʏ ᴠᴇʀsɪᴏɴ:** `{telever}`
 **ᴛᴇʟᴇᴛʜᴏɴ ᴠᴇʀsɪᴏɴ:** `{tlhver}`
