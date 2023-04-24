@@ -18,8 +18,8 @@ class Config(object):
     API_HASH = ""
     TOKEN = ""  # This var used to be API_KEY but it is now TOKEN, adjust accordingly.
     OWNER_ID = "2145093972" # If you dont know, run the bot and do /id in your private chat with it, also an integer
-    OWNER_USERNAME = "Mr_sukkun"
-    SUPPORT_CHAT = "the_support_chat"  # Your own group for support, do not add the @
+    OWNER_USERNAME = "lover_jerry"
+    SUPPORT_CHAT = "maitri_chi_duniya"  # Your own group for support, do not add the @
     JOIN_LOGGER = (
         -1001770762410
     )  # Prints any new group the bot is added to, prints just the name and ID.
@@ -35,7 +35,7 @@ class Config(object):
     INFOPIC = True
     URL = None
     SPAMWATCH_API = "09i2gqhAMVMR1E1HM2jX81FOjj_RJSuplJmdwb5ABK8OULB8qD6JUv5Mz8umicpg"  # go to support.spamwat.ch to get key
-    SPAMWATCH_SUPPORT_CHAT = "@SpamWatchSupport"
+    SPAMWATCH_SUPPORT_CHAT = "@maitri_chi_duniya"
 
     # OPTIONAL
     ##List of id's -  (not usernames) for users which have sudo access to the bot.
