@@ -33,7 +33,7 @@ Mukesh = [
 lol = "https://graph.org/file/11fb641b1724ec95a9420.jpg"
 
 
-@pbot.on_message(filters.command("alive"))
+@pbot.on_message(filters.command("v"))
 async def restart(client, m: Message):
     await m.delete()
     accha = await m.reply("⚡")
